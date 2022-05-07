@@ -1,14 +1,7 @@
-/* $primary: #2155cd;
-$secondary: #0aa1dd;
-$dark: #79dae8;
-$light: #e8f9fd; 
-$quicksand: "Quicksand", sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand&display=swap");
 @import "./partials/reset";
-
-body {
-  background-color: #2155cd;
-}
+@import "./partials/body";
+@import "./partials/variables";
 
 .header {
   color: #e8f9fd;
@@ -18,10 +11,6 @@ body {
 
 .chessboard {
   background-color: #e8f9fd;
-  /* top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; */
   margin: auto;
   display: flex;
   flex-wrap: wrap;

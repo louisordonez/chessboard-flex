@@ -45,5 +45,10 @@ body {
 
 .chess-pieces-spacing {
   float: left;
+  padding: 20px;
+}
+
+.chess-piece {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

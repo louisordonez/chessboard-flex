@@ -4,11 +4,11 @@ $dark: #79dae8;
 $light: #e8f9fd; 
 $quicksand: "Quicksand", sans-serif;*/
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand&display=swap");
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
   background-color: #2155cd;
 }
 
-h1 {
+.header {
   color: #e8f9fd;
   text-align: center;
   padding: 20px;
@@ -29,8 +29,11 @@ h1 {
   bottom: 0;
   left: 0; */
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 480px;
   max-height: 480px;
   width: 100vw;
@@ -48,3 +51,4 @@ p {
   font-size: 50px;
   text-align: center;
 }
+/*# sourceMappingURL=styles.css.map */

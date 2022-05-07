@@ -21,13 +21,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .chessboard {
-  height: 75%;
   width: 75%;
+  height: 75%;
   background-color: #e8f9fd;
 }
 
@@ -41,7 +40,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  min-height: 90vh;
+}
+
+.chess-pieces-spacing {
+  float: left;
 }
 /*# sourceMappingURL=styles.css.map */

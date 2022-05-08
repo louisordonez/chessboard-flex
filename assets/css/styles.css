@@ -11,6 +11,12 @@ body {
   background-color: #2155cd;
 }
 
+.header {
+  color: #e8f9fd;
+  text-align: center;
+  padding: 20px;
+}
+
 .chessboard {
   background-color: #e8f9fd;
   margin: auto;

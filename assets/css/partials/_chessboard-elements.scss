@@ -8,8 +8,10 @@
   max-height: 480px;
   width: 100vw;
   height: 100vw;
-  background-color: $light;
+  background-color: $white;
   border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .box {
@@ -18,7 +20,24 @@
   border: 1px solid black;
 }
 
+.box-color {
+  width: 100%;
+  height: 100%;
+}
+
 .chess-piece {
   font-size: 45px;
   text-align: center;
+}
+
+.medium-persian-blue-bg {
+  background-color: $medium-persian-blue;
+}
+
+.tufts-blue-bg {
+  background-color: $tufts-blue;
+}
+
+.white {
+  color: $white;
 }

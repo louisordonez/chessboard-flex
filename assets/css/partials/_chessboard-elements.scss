@@ -1,0 +1,24 @@
+@import "./variables";
+
+.chessboard {
+  background-color: $light;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 480px;
+  max-height: 480px;
+  width: 100vw;
+  height: 100vw;
+  font-size: 0;
+}
+
+.box {
+  width: 12.5%;
+  height: 12.5%;
+  border: 1px solid black;
+}
+
+.chess-piece {
+  font-size: 50px;
+  text-align: center;
+}

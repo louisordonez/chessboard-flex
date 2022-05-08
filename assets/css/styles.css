@@ -11,25 +11,32 @@ body {
   background-color: #2155cd;
 }
 
+.header-container {
+  margin-top: 115px;
+}
+
 .header {
   color: #e8f9fd;
   text-align: center;
-  padding: 20px;
 }
 
 .chessboard {
-  background-color: #e8f9fd;
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: auto;
   max-width: 480px;
   max-height: 480px;
   width: 100vw;
   height: 100vw;
-  font-size: 0;
+  background-color: #e8f9fd;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .box {
@@ -39,7 +46,23 @@ body {
 }
 
 .chess-piece {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .chessboard {
+    max-width: 380px;
+    max-height: 380px;
+  }
+  .chess-piece {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-container {
+    margin-top: 55px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,7 +1,10 @@
 @import "./variables";
 
+.header-container {
+  margin-top: 115px;
+}
+
 .header {
   color: $light;
   text-align: center;
-  padding: 20px;
 }

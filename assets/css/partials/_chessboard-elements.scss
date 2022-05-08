@@ -1,15 +1,18 @@
 @import "./variables";
 
 .chessboard {
-  background-color: $light;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
   max-width: 480px;
   max-height: 480px;
   width: 100vw;
   height: 100vw;
-  font-size: 0;
+  background-color: $light;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .box {
@@ -19,6 +22,6 @@
 }
 
 .chess-piece {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }

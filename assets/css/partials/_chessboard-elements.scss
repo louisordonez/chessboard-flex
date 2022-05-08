@@ -41,3 +41,82 @@
 .white {
   color: $white;
 }
+
+.move-white-pawn-1 {
+  position: relative;
+  animation: moveWhitePawn1 3s forwards;
+  animation-delay: 2s;
+}
+
+.move-white-pawn-2 {
+  position: relative;
+  animation: moveWhitePawn2 3s forwards;
+  animation-delay: 9s;
+}
+
+.move-black-pawn-1 {
+  position: relative;
+  animation: moveBlackPawn1 3s forwards;
+  animation-delay: 5s;
+}
+
+.move-black-queen {
+  position: relative;
+  animation: moveBlackQueen 3s forwards;
+  animation-delay: 12s;
+}
+
+.box-red {
+  animation: boxRed 3s forwards;
+  animation-delay: 15s;
+}
+
+@keyframes moveWhitePawn1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+
+@keyframes moveWhitePawn2 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 120px;
+  }
+}
+
+@keyframes moveBlackPawn1 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 120px;
+  }
+}
+
+@keyframes moveBlackQueen {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 240px;
+    left: 240px;
+  }
+}
+
+@keyframes boxRed {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}

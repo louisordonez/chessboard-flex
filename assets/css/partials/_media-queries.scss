@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
   .chessboard {
     max-width: 380px;
     max-height: 380px;
@@ -9,8 +9,28 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .header-container {
     margin-top: 55px;
+  }
+
+  .chessboard {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .chess-piece {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .chessboard {
+    max-width: 260px;
+    max-height: 260px;
+  }
+
+  .chess-piece {
+    font-size: 25px;
   }
 }

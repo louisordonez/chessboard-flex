@@ -100,41 +100,41 @@ body {
 
 .move-white-pawn-1 {
   position: relative;
-  -webkit-animation: moveWhitePawn1 3s forwards;
-          animation: moveWhitePawn1 3s forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation: moveWhitePawn1 1s forwards;
+          animation: moveWhitePawn1 1s forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .move-white-pawn-2 {
   position: relative;
-  -webkit-animation: moveWhitePawn2 3s forwards;
-          animation: moveWhitePawn2 3s forwards;
-  -webkit-animation-delay: 9s;
-          animation-delay: 9s;
+  -webkit-animation: moveWhitePawn2 1s forwards;
+          animation: moveWhitePawn2 1s forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .move-black-pawn-1 {
   position: relative;
-  -webkit-animation: moveBlackPawn1 3s forwards;
-          animation: moveBlackPawn1 3s forwards;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation: moveBlackPawn1 1s forwards;
+          animation: moveBlackPawn1 1s forwards;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .move-black-queen {
   position: relative;
-  -webkit-animation: moveBlackQueen 3s forwards;
-          animation: moveBlackQueen 3s forwards;
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s;
+  -webkit-animation: moveBlackQueen 1s forwards;
+          animation: moveBlackQueen 1s forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .box-red {
-  -webkit-animation: boxRed 3s forwards;
-          animation: boxRed 3s forwards;
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
+  -webkit-animation: boxRed 1s forwards;
+          animation: boxRed 1s forwards;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 @-webkit-keyframes moveWhitePawn1 {
@@ -247,31 +247,31 @@ body {
   }
   .move-white-pawn-1 {
     position: relative;
-    -webkit-animation: moveWhitePawn1_450 3s forwards;
-            animation: moveWhitePawn1_450 3s forwards;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    -webkit-animation: moveWhitePawn1_450 1s forwards;
+            animation: moveWhitePawn1_450 1s forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .move-white-pawn-2 {
     position: relative;
-    -webkit-animation: moveWhitePawn2_450 3s forwards;
-            animation: moveWhitePawn2_450 3s forwards;
-    -webkit-animation-delay: 9s;
-            animation-delay: 9s;
+    -webkit-animation: moveWhitePawn2_450 1s forwards;
+            animation: moveWhitePawn2_450 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
   }
   .move-black-pawn-1 {
     position: relative;
-    -webkit-animation: moveBlackPawn1_450 3s forwards;
-            animation: moveBlackPawn1_450 3s forwards;
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
+    -webkit-animation: moveBlackPawn1_450 1s forwards;
+            animation: moveBlackPawn1_450 1s forwards;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
   }
   .move-black-queen {
     position: relative;
-    -webkit-animation: moveBlackQueen_450 3s forwards;
-            animation: moveBlackQueen_450 3s forwards;
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    -webkit-animation: moveBlackQueen_450 1s forwards;
+            animation: moveBlackQueen_450 1s forwards;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
 }
 
@@ -361,31 +361,31 @@ body {
   }
   .move-white-pawn-1 {
     position: relative;
-    -webkit-animation: moveWhitePawn1_390 3s forwards;
-            animation: moveWhitePawn1_390 3s forwards;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    -webkit-animation: moveWhitePawn1_390 1s forwards;
+            animation: moveWhitePawn1_390 1s forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .move-white-pawn-2 {
     position: relative;
-    -webkit-animation: moveWhitePawn2_390 3s forwards;
-            animation: moveWhitePawn2_390 3s forwards;
-    -webkit-animation-delay: 9s;
-            animation-delay: 9s;
+    -webkit-animation: moveWhitePawn2_390 1s forwards;
+            animation: moveWhitePawn2_390 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
   }
   .move-black-pawn-1 {
     position: relative;
-    -webkit-animation: moveBlackPawn1_390 3s forwards;
-            animation: moveBlackPawn1_390 3s forwards;
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
+    -webkit-animation: moveBlackPawn1_390 1s forwards;
+            animation: moveBlackPawn1_390 1s forwards;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
   }
   .move-black-queen {
     position: relative;
-    -webkit-animation: moveBlackQueen_390 3s forwards;
-            animation: moveBlackQueen_390 3s forwards;
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    -webkit-animation: moveBlackQueen_390 1s forwards;
+            animation: moveBlackQueen_390 1s forwards;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
 }
 
@@ -478,31 +478,31 @@ body {
   }
   .move-white-pawn-1 {
     position: relative;
-    -webkit-animation: moveWhitePawn1_280 3s forwards;
-            animation: moveWhitePawn1_280 3s forwards;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    -webkit-animation: moveWhitePawn1_280 1s forwards;
+            animation: moveWhitePawn1_280 1s forwards;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
   }
   .move-white-pawn-2 {
     position: relative;
-    -webkit-animation: moveWhitePawn2_280 3s forwards;
-            animation: moveWhitePawn2_280 3s forwards;
-    -webkit-animation-delay: 9s;
-            animation-delay: 9s;
+    -webkit-animation: moveWhitePawn2_280 1s forwards;
+            animation: moveWhitePawn2_280 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
   }
   .move-black-pawn-1 {
     position: relative;
-    -webkit-animation: moveBlackPawn1_280 3s forwards;
-            animation: moveBlackPawn1_280 3s forwards;
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
+    -webkit-animation: moveBlackPawn1_280 1s forwards;
+            animation: moveBlackPawn1_280 1s forwards;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
   }
   .move-black-queen {
     position: relative;
-    -webkit-animation: moveBlackQueen_280 3s forwards;
-            animation: moveBlackQueen_280 3s forwards;
-    -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    -webkit-animation: moveBlackQueen_280 1s forwards;
+            animation: moveBlackQueen_280 1s forwards;
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
   }
 }
 

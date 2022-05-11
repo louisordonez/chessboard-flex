@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 .chessboard {
   display: flex;
@@ -44,31 +45,31 @@
 
 .move-white-pawn-1 {
   position: relative;
-  animation: moveWhitePawn1 3s forwards;
-  animation-delay: 2s;
+  animation: moveWhitePawn1 $animation forwards;
+  @include animation-delay-white-pawn-1;
 }
 
 .move-white-pawn-2 {
   position: relative;
-  animation: moveWhitePawn2 3s forwards;
-  animation-delay: 9s;
+  animation: moveWhitePawn2 $animation forwards;
+  @include animation-delay-white-pawn-2;
 }
 
 .move-black-pawn-1 {
   position: relative;
-  animation: moveBlackPawn1 3s forwards;
-  animation-delay: 5s;
+  animation: moveBlackPawn1 $animation forwards;
+  @include animation-delay-black-pawn-1;
 }
 
 .move-black-queen {
   position: relative;
-  animation: moveBlackQueen 3s forwards;
-  animation-delay: 12s;
+  animation: moveBlackQueen $animation forwards;
+  @include animation-delay-black-queen;
 }
 
 .box-red {
-  animation: boxRed 3s forwards;
-  animation-delay: 15s;
+  animation: boxRed $animation forwards;
+  @include animation-delay-box-red;
 }
 
 @keyframes moveWhitePawn1 {
@@ -133,26 +134,26 @@
 
   .move-white-pawn-1 {
     position: relative;
-    animation: moveWhitePawn1_450 3s forwards;
-    animation-delay: 2s;
+    animation: moveWhitePawn1_450 $animation forwards;
+    @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     position: relative;
-    animation: moveWhitePawn2_450 3s forwards;
-    animation-delay: 9s;
+    animation: moveWhitePawn2_450 $animation forwards;
+    @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     position: relative;
-    animation: moveBlackPawn1_450 3s forwards;
-    animation-delay: 5s;
+    animation: moveBlackPawn1_450 $animation forwards;
+    @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     position: relative;
-    animation: moveBlackQueen_450 3s forwards;
-    animation-delay: 12s;
+    animation: moveBlackQueen_450 $animation forwards;
+    @include animation-delay-black-queen;
   }
 }
 
@@ -206,26 +207,26 @@
 
   .move-white-pawn-1 {
     position: relative;
-    animation: moveWhitePawn1_390 3s forwards;
-    animation-delay: 2s;
+    animation: moveWhitePawn1_390 $animation forwards;
+    @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     position: relative;
-    animation: moveWhitePawn2_390 3s forwards;
-    animation-delay: 9s;
+    animation: moveWhitePawn2_390 $animation forwards;
+    @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     position: relative;
-    animation: moveBlackPawn1_390 3s forwards;
-    animation-delay: 5s;
+    animation: moveBlackPawn1_390 $animation forwards;
+    @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     position: relative;
-    animation: moveBlackQueen_390 3s forwards;
-    animation-delay: 12s;
+    animation: moveBlackQueen_390 $animation forwards;
+    @include animation-delay-black-queen;
   }
 }
 
@@ -283,26 +284,26 @@
 
   .move-white-pawn-1 {
     position: relative;
-    animation: moveWhitePawn1_280 3s forwards;
-    animation-delay: 2s;
+    animation: moveWhitePawn1_280 $animation forwards;
+    @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     position: relative;
-    animation: moveWhitePawn2_280 3s forwards;
-    animation-delay: 9s;
+    animation: moveWhitePawn2_280 $animation forwards;
+    @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     position: relative;
-    animation: moveBlackPawn1_280 3s forwards;
-    animation-delay: 5s;
+    animation: moveBlackPawn1_280 $animation forwards;
+    @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     position: relative;
-    animation: moveBlackQueen_280 3s forwards;
-    animation-delay: 12s;
+    animation: moveBlackQueen_280 $animation forwards;
+    @include animation-delay-black-queen;
   }
 }
 

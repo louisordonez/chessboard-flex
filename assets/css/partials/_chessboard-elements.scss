@@ -122,7 +122,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 499px) {
   .chessboard {
     max-width: 380px;
     max-height: 380px;
@@ -134,35 +134,35 @@
 
   .move-white-pawn-1 {
     @include animation-position;
-    animation: moveWhitePawn1_450 $animation forwards;
+    animation: moveWhitePawn1_499 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     @include animation-position;
-    animation: moveWhitePawn2_450 $animation forwards;
+    animation: moveWhitePawn2_499 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     @include animation-position;
-    animation: moveBlackPawn1_450 $animation forwards;
+    animation: moveBlackPawn1_499 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     @include animation-position;
-    animation: moveBlackQueen_450 $animation forwards;
+    animation: moveBlackQueen_499 $animation forwards;
     @include animation-delay-black-queen;
   }
 
   .box-red {
-    animation: boxRed_450 $animation forwards;
+    animation: boxRed_499 $animation forwards;
     @include animation-delay-box-red;
   }
 }
 
-@keyframes moveWhitePawn1_450 {
+@keyframes moveWhitePawn1_499 {
   from {
     bottom: 0px;
   }
@@ -171,7 +171,7 @@
   }
 }
 
-@keyframes moveWhitePawn2_450 {
+@keyframes moveWhitePawn2_499 {
   from {
     bottom: 0px;
   }
@@ -180,7 +180,7 @@
   }
 }
 
-@keyframes moveBlackPawn1_450 {
+@keyframes moveBlackPawn1_499 {
   from {
     top: 0px;
   }
@@ -189,7 +189,7 @@
   }
 }
 
-@keyframes moveBlackQueen_450 {
+@keyframes moveBlackQueen_499 {
   from {
     top: 0px;
     left: 0px;
@@ -200,7 +200,7 @@
   }
 }
 
-@keyframes boxRed_450 {
+@keyframes boxRed_499 {
   from {
     top: 0px;
     left: 0px;
@@ -212,7 +212,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .chessboard {
     max-width: 350px;
     max-height: 350px;
@@ -224,35 +224,35 @@
 
   .move-white-pawn-1 {
     @include animation-position;
-    animation: moveWhitePawn1_390 $animation forwards;
+    animation: moveWhitePawn1_400 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     @include animation-position;
-    animation: moveWhitePawn2_390 $animation forwards;
+    animation: moveWhitePawn2_400 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     @include animation-position;
-    animation: moveBlackPawn1_390 $animation forwards;
+    animation: moveBlackPawn1_400 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     @include animation-position;
-    animation: moveBlackQueen_390 $animation forwards;
+    animation: moveBlackQueen_400 $animation forwards;
     @include animation-delay-black-queen;
   }
 
   .box-red {
-    animation: boxRed_390 $animation forwards;
+    animation: boxRed_400 $animation forwards;
     @include animation-delay-box-red;
   }
 }
 
-@keyframes moveWhitePawn1_390 {
+@keyframes moveWhitePawn1_400 {
   from {
     bottom: 0px;
   }
@@ -261,7 +261,7 @@
   }
 }
 
-@keyframes moveWhitePawn2_390 {
+@keyframes moveWhitePawn2_400 {
   from {
     bottom: 0px;
   }
@@ -270,7 +270,7 @@
   }
 }
 
-@keyframes moveBlackPawn1_390 {
+@keyframes moveBlackPawn1_400 {
   from {
     top: 0px;
   }
@@ -279,7 +279,7 @@
   }
 }
 
-@keyframes moveBlackQueen_390 {
+@keyframes moveBlackQueen_400 {
   from {
     top: 0px;
     left: 0px;
@@ -290,7 +290,7 @@
   }
 }
 
-@keyframes boxRed_390 {
+@keyframes boxRed_400 {
   from {
     top: 0px;
     left: 0px;
@@ -302,7 +302,7 @@
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 350px) {
   .header {
     font-size: 21px;
   }
@@ -318,35 +318,35 @@
 
   .move-white-pawn-1 {
     @include animation-position;
-    animation: moveWhitePawn1_280 $animation forwards;
+    animation: moveWhitePawn1_350 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
     @include animation-position;
-    animation: moveWhitePawn2_280 $animation forwards;
+    animation: moveWhitePawn2_350 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
     @include animation-position;
-    animation: moveBlackPawn1_280 $animation forwards;
+    animation: moveBlackPawn1_350 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
     @include animation-position;
-    animation: moveBlackQueen_280 $animation forwards;
+    animation: moveBlackQueen_350 $animation forwards;
     @include animation-delay-black-queen;
   }
 
   .box-red {
-    animation: boxRed_280 $animation forwards;
+    animation: boxRed_350 $animation forwards;
     @include animation-delay-box-red;
   }
 }
 
-@keyframes moveWhitePawn1_280 {
+@keyframes moveWhitePawn1_350 {
   from {
     bottom: 0px;
   }
@@ -355,7 +355,7 @@
   }
 }
 
-@keyframes moveWhitePawn2_280 {
+@keyframes moveWhitePawn2_350 {
   from {
     bottom: 0px;
   }
@@ -364,7 +364,7 @@
   }
 }
 
-@keyframes moveBlackPawn1_280 {
+@keyframes moveBlackPawn1_350 {
   from {
     top: 0px;
   }
@@ -373,7 +373,7 @@
   }
 }
 
-@keyframes moveBlackQueen_280 {
+@keyframes moveBlackQueen_350 {
   from {
     top: 0px;
     left: 0px;
@@ -384,7 +384,7 @@
   }
 }
 
-@keyframes boxRed_280 {
+@keyframes boxRed_350 {
   from {
     top: 0px;
     left: 0px;

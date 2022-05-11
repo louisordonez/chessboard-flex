@@ -1,3 +1,7 @@
+@mixin animation-position {
+  position: relative;
+}
+
 @mixin animation-delay-white-pawn-1 {
   animation-delay: 1s;
 }

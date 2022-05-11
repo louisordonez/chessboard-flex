@@ -44,25 +44,25 @@
 }
 
 .move-white-pawn-1 {
-  position: relative;
+  @include animation-position;
   animation: moveWhitePawn1 $animation forwards;
   @include animation-delay-white-pawn-1;
 }
 
 .move-white-pawn-2 {
-  position: relative;
+  @include animation-position;
   animation: moveWhitePawn2 $animation forwards;
   @include animation-delay-white-pawn-2;
 }
 
 .move-black-pawn-1 {
-  position: relative;
+  @include animation-position;
   animation: moveBlackPawn1 $animation forwards;
   @include animation-delay-black-pawn-1;
 }
 
 .move-black-queen {
-  position: relative;
+  @include animation-position;
   animation: moveBlackQueen $animation forwards;
   @include animation-delay-black-queen;
 }
@@ -118,7 +118,7 @@
   to {
     top: 0px;
     left: 0x;
-    background: red;
+    background: $red;
   }
 }
 
@@ -133,27 +133,32 @@
   }
 
   .move-white-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn1_450 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn2_450 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveBlackPawn1_450 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
-    position: relative;
+    @include animation-position;
     animation: moveBlackQueen_450 $animation forwards;
     @include animation-delay-black-queen;
+  }
+
+  .box-red {
+    animation: boxRed_450 $animation forwards;
+    @include animation-delay-box-red;
   }
 }
 
@@ -195,6 +200,18 @@
   }
 }
 
+@keyframes boxRed_450 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .chessboard {
     max-width: 350px;
@@ -206,27 +223,32 @@
   }
 
   .move-white-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn1_390 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn2_390 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveBlackPawn1_390 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
-    position: relative;
+    @include animation-position;
     animation: moveBlackQueen_390 $animation forwards;
     @include animation-delay-black-queen;
+  }
+
+  .box-red {
+    animation: boxRed_390 $animation forwards;
+    @include animation-delay-box-red;
   }
 }
 
@@ -268,6 +290,18 @@
   }
 }
 
+@keyframes boxRed_390 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .header {
     font-size: 21px;
@@ -283,27 +317,32 @@
   }
 
   .move-white-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn1_280 $animation forwards;
     @include animation-delay-white-pawn-1;
   }
 
   .move-white-pawn-2 {
-    position: relative;
+    @include animation-position;
     animation: moveWhitePawn2_280 $animation forwards;
     @include animation-delay-white-pawn-2;
   }
 
   .move-black-pawn-1 {
-    position: relative;
+    @include animation-position;
     animation: moveBlackPawn1_280 $animation forwards;
     @include animation-delay-black-pawn-1;
   }
 
   .move-black-queen {
-    position: relative;
+    @include animation-position;
     animation: moveBlackQueen_280 $animation forwards;
     @include animation-delay-black-queen;
+  }
+
+  .box-red {
+    animation: boxRed_280 $animation forwards;
+    @include animation-delay-box-red;
   }
 }
 
@@ -342,5 +381,17 @@
   to {
     top: 129px;
     left: 129px;
+  }
+}
+
+@keyframes boxRed_280 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
   }
 }

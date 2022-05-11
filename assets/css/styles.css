@@ -273,6 +273,12 @@ body {
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
   }
+  .box-red {
+    -webkit-animation: boxRed_450 1s forwards;
+            animation: boxRed_450 1s forwards;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+  }
 }
 
 @-webkit-keyframes moveWhitePawn1_450 {
@@ -351,6 +357,30 @@ body {
   }
 }
 
+@-webkit-keyframes boxRed_450 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}
+
+@keyframes boxRed_450 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .chessboard {
     max-width: 350px;
@@ -386,6 +416,12 @@ body {
             animation: moveBlackQueen_390 1s forwards;
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
+  }
+  .box-red {
+    -webkit-animation: boxRed_390 1s forwards;
+            animation: boxRed_390 1s forwards;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
   }
 }
 
@@ -465,6 +501,30 @@ body {
   }
 }
 
+@-webkit-keyframes boxRed_390 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}
+
+@keyframes boxRed_390 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}
+
 @media screen and (max-width: 280px) {
   .header {
     font-size: 21px;
@@ -503,6 +563,12 @@ body {
             animation: moveBlackQueen_280 1s forwards;
     -webkit-animation-delay: 4s;
             animation-delay: 4s;
+  }
+  .box-red {
+    -webkit-animation: boxRed_280 1s forwards;
+            animation: boxRed_280 1s forwards;
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
   }
 }
 
@@ -579,6 +645,30 @@ body {
   to {
     top: 129px;
     left: 129px;
+  }
+}
+
+@-webkit-keyframes boxRed_280 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
+  }
+}
+
+@keyframes boxRed_280 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: red;
   }
 }
 /*# sourceMappingURL=styles.css.map */

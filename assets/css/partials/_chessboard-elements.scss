@@ -1,6 +1,5 @@
 @import "./variables";
 @import "./mixins";
-@import "./animation";
 
 .chessboard {
   display: flex;
@@ -44,45 +43,57 @@
   color: $white;
 }
 
-%animation-position {
-  position: relative;
-}
-
 .move-white-pawn-1 {
-  @extend %animation-position;
-  // @include moveAnimation(moveBlackPawn1_400, $animation);
-  animation: moveWhitePawn1 $animation forwards;
-  @include animation-delay-white-pawn-1;
+  @include moveAnimation(
+    move-white-pawn-1,
+    default,
+    $animation-duration,
+    $animation-fill-mode
+  );
+  @include animation-delay($white-pawn-1-animation-delay);
 }
 
 .move-white-pawn-2 {
-  @extend %animation-position;
-  animation: moveWhitePawn2 $animation forwards;
-  @include animation-delay-white-pawn-2;
+  @include moveAnimation(
+    move-white-pawn-2,
+    default,
+    $animation-duration,
+    $animation-fill-mode
+  );
+  @include animation-delay($white-pawn-2-animation-delay);
 }
 
 .move-black-pawn-1 {
-  @extend %animation-position;
-  animation: moveBlackPawn1 $animation forwards;
-  @include animation-delay-black-pawn-1;
+  @include moveAnimation(
+    move-black-pawn-1,
+    default,
+    $animation-duration,
+    $animation-fill-mode
+  );
+  @include animation-delay($black-pawn-1-animation-delay);
 }
 
 .move-black-queen {
-  @extend %animation-position;
-  animation: moveBlackQueen $animation forwards;
-  @include animation-delay-black-queen;
+  @include moveAnimation(
+    move-black-queen,
+    default,
+    $animation-duration,
+    $animation-fill-mode
+  );
+  @include animation-delay($black-queen-animation-delay);
 }
 
 .box-red {
-  animation: boxRed $animation forwards;
-  @include animation-delay-box-red;
+  @include boxRedAnimation(
+    box-red,
+    default,
+    $animation-duration,
+    $animation-fill-mode
+  );
+  @include animation-delay($box-red-animation-delay);
 }
 
 @media screen and (max-width: 499px) {
-  %animation-position-499 {
-    position: relative;
-  }
-
   .chessboard {
     max-width: 380px;
     max-height: 380px;
@@ -93,40 +104,57 @@
   }
 
   .move-white-pawn-1 {
-    @extend %animation-position-499;
-    animation: moveWhitePawn1_499 $animation forwards;
-    @include animation-delay-white-pawn-1;
+    @include moveAnimation(
+      move-white-pawn-1,
+      499,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-1-animation-delay);
   }
 
   .move-white-pawn-2 {
-    @extend %animation-position-499;
-    animation: moveWhitePawn2_499 $animation forwards;
-    @include animation-delay-white-pawn-2;
+    @include moveAnimation(
+      move-white-pawn-2,
+      499,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-2-animation-delay);
   }
 
   .move-black-pawn-1 {
-    @extend %animation-position-499;
-    animation: moveBlackPawn1_499 $animation forwards;
-    @include animation-delay-black-pawn-1;
+    @include moveAnimation(
+      move-black-pawn-1,
+      499,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-pawn-1-animation-delay);
   }
 
   .move-black-queen {
-    @extend %animation-position-499;
-    animation: moveBlackQueen_499 $animation forwards;
-    @include animation-delay-black-queen;
+    @include moveAnimation(
+      move-black-queen,
+      499,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-queen-animation-delay);
   }
 
   .box-red {
-    animation: boxRed_499 $animation forwards;
-    @include animation-delay-box-red;
+    @include boxRedAnimation(
+      box-red,
+      499,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($box-red-animation-delay);
   }
 }
 
 @media screen and (max-width: 400px) {
-  %animation-position-400 {
-    position: relative;
-  }
-
   .chessboard {
     max-width: 350px;
     max-height: 350px;
@@ -137,40 +165,57 @@
   }
 
   .move-white-pawn-1 {
-    @extend %animation-position-400;
-    animation: moveWhitePawn1_400 $animation forwards;
-    @include animation-delay-white-pawn-1;
+    @include moveAnimation(
+      move-white-pawn-1,
+      400,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-1-animation-delay);
   }
 
   .move-white-pawn-2 {
-    @extend %animation-position-400;
-    animation: moveWhitePawn2_400 $animation forwards;
-    @include animation-delay-white-pawn-2;
+    @include moveAnimation(
+      move-white-pawn-2,
+      400,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-2-animation-delay);
   }
 
   .move-black-pawn-1 {
-    @extend %animation-position-400;
-    animation: moveBlackPawn1_400 $animation forwards;
-    @include animation-delay-black-pawn-1;
+    @include moveAnimation(
+      move-black-pawn-1,
+      400,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-pawn-1-animation-delay);
   }
 
   .move-black-queen {
-    @extend %animation-position-400;
-    animation: moveBlackQueen_400 $animation forwards;
-    @include animation-delay-black-queen;
+    @include moveAnimation(
+      move-black-queen,
+      400,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-queen-animation-delay);
   }
 
   .box-red {
-    animation: boxRed_400 $animation forwards;
-    @include animation-delay-box-red;
+    @include boxRedAnimation(
+      box-red,
+      400,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($box-red-animation-delay);
   }
 }
 
 @media screen and (max-width: 350px) {
-  %animation-position-350 {
-    position: relative;
-  }
-
   .header {
     font-size: 21px;
   }
@@ -185,31 +230,52 @@
   }
 
   .move-white-pawn-1 {
-    @extend %animation-position-350;
-    animation: moveWhitePawn1_350 $animation forwards;
-    @include animation-delay-white-pawn-1;
+    @include moveAnimation(
+      move-white-pawn-1,
+      350,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-1-animation-delay);
   }
 
   .move-white-pawn-2 {
-    @extend %animation-position-350;
-    animation: moveWhitePawn2_350 $animation forwards;
-    @include animation-delay-white-pawn-2;
+    @include moveAnimation(
+      move-white-pawn-2,
+      350,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($white-pawn-2-animation-delay);
   }
 
   .move-black-pawn-1 {
-    @extend %animation-position-350;
-    animation: moveBlackPawn1_350 $animation forwards;
-    @include animation-delay-black-pawn-1;
+    @include moveAnimation(
+      move-black-pawn-1,
+      350,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-pawn-1-animation-delay);
   }
 
   .move-black-queen {
-    @extend %animation-position-350;
-    animation: moveBlackQueen_350 $animation forwards;
-    @include animation-delay-black-queen;
+    @include moveAnimation(
+      move-black-queen,
+      350,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($black-queen-animation-delay);
   }
 
   .box-red {
-    animation: boxRed_350 $animation forwards;
-    @include animation-delay-box-red;
+    @include boxRedAnimation(
+      box-red,
+      350,
+      $animation-duration,
+      $animation-fill-mode
+    );
+    @include animation-delay($box-red-animation-delay);
   }
 }

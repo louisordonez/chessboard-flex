@@ -548,11 +548,8 @@ body {
   color: white;
 }
 
-.move-white-pawn-1, .move-white-pawn-2, .move-black-pawn-1, .move-black-queen {
-  position: relative;
-}
-
 .move-white-pawn-1 {
+  position: relative;
   -webkit-animation: moveWhitePawn1 1s forwards;
           animation: moveWhitePawn1 1s forwards;
   -webkit-animation-delay: 1s;
@@ -560,6 +557,7 @@ body {
 }
 
 .move-white-pawn-2 {
+  position: relative;
   -webkit-animation: moveWhitePawn2 1s forwards;
           animation: moveWhitePawn2 1s forwards;
   -webkit-animation-delay: 3s;
@@ -567,6 +565,7 @@ body {
 }
 
 .move-black-pawn-1 {
+  position: relative;
   -webkit-animation: moveBlackPawn1 1s forwards;
           animation: moveBlackPawn1 1s forwards;
   -webkit-animation-delay: 2s;
@@ -574,6 +573,7 @@ body {
 }
 
 .move-black-queen {
+  position: relative;
   -webkit-animation: moveBlackQueen 1s forwards;
           animation: moveBlackQueen 1s forwards;
   -webkit-animation-delay: 4s;
@@ -588,9 +588,6 @@ body {
 }
 
 @media screen and (max-width: 499px) {
-  .move-white-pawn-1, .move-white-pawn-2, .move-black-pawn-1, .move-black-queen {
-    position: relative;
-  }
   .chessboard {
     max-width: 380px;
     max-height: 380px;
@@ -599,24 +596,28 @@ body {
     font-size: 35px;
   }
   .move-white-pawn-1 {
+    position: relative;
     -webkit-animation: moveWhitePawn1_499 1s forwards;
             animation: moveWhitePawn1_499 1s forwards;
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
   }
   .move-white-pawn-2 {
+    position: relative;
     -webkit-animation: moveWhitePawn2_499 1s forwards;
             animation: moveWhitePawn2_499 1s forwards;
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
   .move-black-pawn-1 {
+    position: relative;
     -webkit-animation: moveBlackPawn1_499 1s forwards;
             animation: moveBlackPawn1_499 1s forwards;
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
   }
   .move-black-queen {
+    position: relative;
     -webkit-animation: moveBlackQueen_499 1s forwards;
             animation: moveBlackQueen_499 1s forwards;
     -webkit-animation-delay: 4s;
@@ -631,9 +632,6 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .move-white-pawn-1, .move-white-pawn-2, .move-black-pawn-1, .move-black-queen {
-    position: relative;
-  }
   .chessboard {
     max-width: 350px;
     max-height: 350px;
@@ -642,24 +640,28 @@ body {
     font-size: 33px;
   }
   .move-white-pawn-1 {
+    position: relative;
     -webkit-animation: moveWhitePawn1_400 1s forwards;
             animation: moveWhitePawn1_400 1s forwards;
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
   }
   .move-white-pawn-2 {
+    position: relative;
     -webkit-animation: moveWhitePawn2_400 1s forwards;
             animation: moveWhitePawn2_400 1s forwards;
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
   .move-black-pawn-1 {
+    position: relative;
     -webkit-animation: moveBlackPawn1_400 1s forwards;
             animation: moveBlackPawn1_400 1s forwards;
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
   }
   .move-black-queen {
+    position: relative;
     -webkit-animation: moveBlackQueen_400 1s forwards;
             animation: moveBlackQueen_400 1s forwards;
     -webkit-animation-delay: 4s;
@@ -674,9 +676,6 @@ body {
 }
 
 @media screen and (max-width: 350px) {
-  .move-white-pawn-1, .move-white-pawn-2, .move-black-pawn-1, .move-black-queen {
-    position: relative;
-  }
   .header {
     font-size: 21px;
   }
@@ -688,24 +687,28 @@ body {
     font-size: 25px;
   }
   .move-white-pawn-1 {
+    position: relative;
     -webkit-animation: moveWhitePawn1_350 1s forwards;
             animation: moveWhitePawn1_350 1s forwards;
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
   }
   .move-white-pawn-2 {
+    position: relative;
     -webkit-animation: moveWhitePawn2_350 1s forwards;
             animation: moveWhitePawn2_350 1s forwards;
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
   }
   .move-black-pawn-1 {
+    position: relative;
     -webkit-animation: moveBlackPawn1_350 1s forwards;
             animation: moveBlackPawn1_350 1s forwards;
     -webkit-animation-delay: 2s;
             animation-delay: 2s;
   }
   .move-black-queen {
+    position: relative;
     -webkit-animation: moveBlackQueen_350 1s forwards;
             animation: moveBlackQueen_350 1s forwards;
     -webkit-animation-delay: 4s;

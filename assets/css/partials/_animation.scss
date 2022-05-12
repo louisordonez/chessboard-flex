@@ -1,0 +1,255 @@
+@import "./variables";
+
+// Default
+@keyframes moveWhitePawn1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+
+@keyframes moveWhitePawn2 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 120px;
+  }
+}
+
+@keyframes moveBlackPawn1 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 120px;
+  }
+}
+
+@keyframes moveBlackQueen {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 240px;
+    left: 240px;
+  }
+}
+
+@keyframes boxRed {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
+// 499
+@keyframes moveWhitePawn1_499 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 47px;
+  }
+}
+
+@keyframes moveWhitePawn2_499 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 94px;
+  }
+}
+
+@keyframes moveBlackPawn1_499 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 96px;
+  }
+}
+
+@keyframes moveBlackQueen_499 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 190px;
+    left: 190px;
+  }
+}
+
+@keyframes boxRed_499 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
+// 400
+@keyframes moveWhitePawn1_400 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 45px;
+  }
+}
+
+@keyframes moveWhitePawn2_400 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 88px;
+  }
+}
+
+@keyframes moveBlackPawn1_400 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 86px;
+  }
+}
+
+@keyframes moveBlackQueen_400 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 173px;
+    left: 173px;
+  }
+}
+
+@keyframes boxRed_400 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
+@keyframes moveWhitePawn1_350 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 33px;
+  }
+}
+
+@keyframes moveWhitePawn2_350 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+
+@keyframes moveBlackPawn1_350 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 64px;
+  }
+}
+
+@keyframes moveBlackQueen_350 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 129px;
+    left: 129px;
+  }
+}
+
+@keyframes boxRed_350 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}
+
+// 350
+@keyframes moveWhitePawn1_350 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 33px;
+  }
+}
+
+@keyframes moveWhitePawn2_350 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+
+@keyframes moveBlackPawn1_350 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 64px;
+  }
+}
+
+@keyframes moveBlackQueen_350 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 129px;
+    left: 129px;
+  }
+}
+
+@keyframes boxRed_350 {
+  from {
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    top: 0px;
+    left: 0x;
+    background: $red;
+  }
+}

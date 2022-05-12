@@ -1,7 +1,3 @@
-@mixin animation-position {
-  position: relative;
-}
-
 @mixin animation-delay-white-pawn-1 {
   animation-delay: 1s;
 }
@@ -20,4 +16,12 @@
 
 @mixin animation-delay-box-red {
   animation-delay: 5s;
+}
+
+@mixin animation-delay($delay) {
+  animation-delay: $delay;
+}
+
+@mixin moveAnmiation($name, $animation) {
+  animation: $name $animation "forwards";
 }

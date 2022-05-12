@@ -63,14 +63,11 @@
   @if ($animation-name == box-red) {
     @if ($screen-size == default) {
       animation: boxRed $animation-duration $animation-fill-mode;
-    }
-    @if ($screen-size == 499) {
+    } @else if ($screen-size == 499) {
       animation: boxRed_499 $animation-duration $animation-fill-mode;
-    }
-    @if ($screen-size == 400) {
+    } @else if ($screen-size == 400) {
       animation: boxRed_400 $animation-duration $animation-fill-mode;
-    }
-    @if ($screen-size == 350) {
+    } @else if ($screen-size == 350) {
       animation: boxRed_350 $animation-duration $animation-fill-mode;
     }
   }

@@ -1,5 +1,8 @@
 # chessboard-flex
+This project is a web page application chessboard utilizing Flex.
 
-https://louisordonez.github.io/chessboard-flex/
+## Tech Stack
+- HTML
+- SCSS
 
-This project is a web page application chessboard built using HTML utilizing Flex and SCSS.
+#### Live Demo: https://louisordonez.github.io/chessboard-flex/

@@ -1,7 +1,9 @@
 # chessboard-flex
+
 This project is a web application chessboard utilizing Flex.
 
 ## Tech Stack
+
 - HTML
 - SCSS
 

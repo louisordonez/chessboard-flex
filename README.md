@@ -1,5 +1,7 @@
 # chessboard-flex
 
+![Screenshot](./assets/images/screenshot.png)
+
 This project is a web application chessboard utilizing Flex.
 
 ## Tech Stack
